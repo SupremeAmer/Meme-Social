@@ -18,7 +18,7 @@
     "build": "react-scripts build"
   }
 }
-"homepage": "https://yourusername.github.io/your-repo-name",
+"homepage": "https://supremeamer.github.io/Meme-Social",
 "scripts": {
   // ...other scripts
   "predeploy": "npm run build",
