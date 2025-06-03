@@ -1,9 +1,11 @@
 {
-  "name": "meme-social",
+  "name": "Meme-Social",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://SupremeAmer.github.io/Meme_Social"
+  ",
   "dependencies": {
-    "@emotion/react": "^11.11.1",
+   "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
@@ -13,14 +15,13 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "^7.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
-}
-"homepage": "https://supremeamer.github.io/Meme-Social",
-"scripts": {
-  // ...other scripts
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
 }
