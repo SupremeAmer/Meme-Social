@@ -1,0 +1,7 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ellipse background, optional -->
+  <ellipse cx="100" cy="100" rx="90" ry="90" fill="#61dafb" opacity="0.2"/>
+  <!-- Embedded image logo (replace mylogo.png with your file name if different) -->
+  <image href="/mylogo.png" x="35" y="35" width="130" height="130"/>
+  <!-- Optional: Add more SVG elements or text here -->
+</svg>
